@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formPractice01</title>
+</head>
+<body>
+   
+        <h2>University Registration form</h2>
+        <p>Please fill out the form below to register</p>
+
+        <hr>
+         <form action="" >
+            <label for="name">First Name</label>
+            <input type="text" id="name" name="userName" placeholder="e.g. Arjun" required>
+            <br><br>
+
+            <label for="lName">Last Name</label>
+            <input type="text" name="userSurname" id="lName" placeholder="e.g. Kumar" required>
+            <br><br>
+
+            <label for="DOB">date Of Birth</label>
+            <input type="date" id="DOB" name="userDOB">
+<br><br>
+            <label for="gender">Gender</label>
+            <br>
+            <input type="radio" id="male" name="userGender" value="male">
+            <label for="male">Male</label>
+            <br>
+            <input type="radio" id="female" name="userGender" value="female">
+            <label for="female">Female</label>
+            <br>
+            <input type="radio" id="other" name="userGender" value="other">
+            <label for="other">Other</label>
+            <br><br>
+
+            <label for="photo">Upload your Photo</label>
+            <br>
+            <input type="file" name="userPhoto" id="photo">
+            <br>
+            <hr>
+            <br>
+            <h2>Contact Information</h2>
+            <label for="email">Email Address:</label>
+            <input type="email" name="userEmail" id="email" placeholder="you@example.com" required>
+            <br><br>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" placeholder="e.g. 9876543210" required name="usePhone">
+            <br><br>
+            <label for="address">Mailing Address</label><br>
+            <textarea name="userAddress" id="address" placeholder="street Address , city , State , ZIP Code" rows="5" required></textarea>
+            <hr>
+            <br>
+            <h2>Academic Information</h2>
+            <br><br>
+            <label for="cource">Select your Course</label>
+            <select name="useCource" id="cource" required>
+                <option value="">choose your cource</option>
+                <option value="diploma">diploma in engineering</option>
+                <option value="btech">graduation in engineering</option>
+                <option value="mtech">masters in engineering</option>
+            </select>
+            <br><br>
+            <label for="intrest">Extra Carruicular Activity</label>
+            <input type="checkbox" name="userIntrest" id="sports" value="sports">
+            <label for="sports">Sports</label>
+            <input type="checkbox" name="userIntrest" id="music" value="music">
+            <label for="music">Music and arts</label>
+            <input type="checkbox" name="userIntrest" id="technology" value="technology">
+            <label for="technology">technology</label>
+            <input type="checkbox" name="userIntrest" id="volunteering" value="volunteering">
+            <label for="volunteering">volunteering</label>
+            <br><hr><br>
+            <h2>Create Your Account</h2>
+            <label for="createPass">Create a password</label>
+            <input type="password" required id="createPass" name="createPass">
+            <br><br>
+            <label for="ques">security Question</label>
+            <select name="securityQuestion" id="ques">
+                <option value="">select the question</option>
+                <option value="crush">What was your first crush name</option>
+                <option value="school">What was your first school name</option>
+                <option value="anime">What was your first anime name</option>
+            </select>
+            <br><br>
+            <label for="secAns">Security Answar:</label>
+            <input type="text"  id="secAns" name="securityAnswer" required>
+            <br><br>
+            <input type="checkbox" name="ternCon" id="t&c">
+            <label for="termCon">I agree to Term and Condition</label>
+            <br><br><hr><br>
+            <input type="submit" id="registerButton" value="Register">
+            <input type="reset" value="Clear Form">
+
+
+         </form>
+
+
+</body>
+</html>

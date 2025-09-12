@@ -1,0 +1,34 @@
+.position{
+    background-color: pink;
+    position: absolute;
+    /* left: 100px; */
+    /* bottom: 50px; */
+    /* z-index: +1; */
+/* margin-left: 100px; */
+} 
+    .head{
+        position: relative;
+        background-color: aqua;
+        /* z-index: +2; */
+    }
+
+    /*  in case of position absolute, later come  element will overlape the earlier one if they share same space   */
+
+    /* position realtive reserver his position, no one can occupy his position , but in case of position absolute & fixed - it left his actal position , other element takes his position. */
+
+    /*  sticky became fixed after when they render in ui. 
+    
+    .head{
+    position:sticky;
+    top : 0px
+    }
+   when the reaches to 0 px , it beacame sticky 
+   
+  example 2 -  position:sticky;
+    top : 10px
+
+    when element 10 px left to reach at top point of UI, make it sticky
+   
+   
+   */
+    

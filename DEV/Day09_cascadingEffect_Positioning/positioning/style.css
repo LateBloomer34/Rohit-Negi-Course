@@ -31,4 +31,9 @@
    
    
    */
+
+
+
+   /* position absolute -  depends on position relatives, or sticky or fixed element .  
+   means if any element has a property of position realtive, it comes position absolute's parent*/
     

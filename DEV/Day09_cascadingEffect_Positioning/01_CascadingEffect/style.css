@@ -1,0 +1,16 @@
+
+
+.first{
+    background-color: pink;
+}
+
+ul>li{
+    background-color: aqua;
+}
+h1{
+    background-color: palegoldenrod ;
+
+}
+.first{
+    background-color: red !important;
+}

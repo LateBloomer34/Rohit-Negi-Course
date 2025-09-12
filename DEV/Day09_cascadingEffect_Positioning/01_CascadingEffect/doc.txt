@@ -1,0 +1,54 @@
+inline css has heighest priority
+=> but internal and extreal depends on its position.
+-----if internal css write before external , extreanl has more priority 
+
+--- if external css write before internal , intreanl has more priority.
+
+
+// if we want internal or external render in ui, then put !imprtant with every proprty in internal and external
+
+ h1{
+            background-color: pink !important;
+        }
+
+!importan t overwrite the priority
+
+
+example 1- 
+<link rel="stylesheet" href="style.css">
+    <style>
+        h1{
+            background-color: pink;
+        }
+        </style>
+here internal has priority over external CSS
+
+
+
+example 2- 
+
+    <style>
+        h1{
+            background-color: pink;
+        }
+        </style>
+<link rel="stylesheet" href="style.css">
+here external has priority over internal CSS
+// ordering matters only
+
+means it totally depend on order, which comes later . has heighest priority.
+
+same thing happen with tag , class and id
+id has the heighest priority. class - second heighets , tag has least priority
+
+ex- 
+<h1 class="first" id="idfirst"> Lorem ipsum dolor sit amet.</h1>
+
+if we apply seperate bg colour for tag , class and id, always id colour render,
+means ID has the heighest priority.
+
+what happen if we apply property in only tag and class -  class property will render in the UI.
+
+
+
+this priority rule knoem as cascading effect, 

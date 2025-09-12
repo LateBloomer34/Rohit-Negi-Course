@@ -1,0 +1,39 @@
+.parent{
+    height: 200px;  
+    width: 300px;
+    /* background-color: rgb(5, 66, 122); */
+    background-color: rgb(255, 225, 0);
+    position: relative;
+}
+.child1{
+    height: 85px;
+    width: 85px;
+    background-color: rgb(2, 89, 155);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.child2{
+    height: 85px;
+    width: 185px;
+    background-color: rgb(2, 89, 155);
+    position: absolute;
+    top: 0px;
+    right: 0px; 
+}
+.child3{
+    height: 85px;
+    width: 85px;
+    background-color: rgb(2, 89, 155);
+     position: absolute;
+     left: 0px;
+     bottom: 0px;
+}
+.child4{
+    height: 85px;
+    width: 185px;
+    background-color: rgb(2, 89, 155);
+     position: absolute;
+     bottom: 0px;
+     right: 0px;
+}

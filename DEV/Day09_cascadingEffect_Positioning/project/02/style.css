@@ -1,0 +1,20 @@
+.parent{
+    height: 200px;
+    width: 300px;
+    background-color: rgba(3, 49, 106, 0.825);
+    position: relative;
+}
+.child1{
+    height: 100%;
+    width: 30px;
+    background-color: yellow;
+    position: absolute;
+    left: 35%;
+}
+.child2{
+    height: 30px;
+    width: 100%;
+    background-color: yellow;
+    position: absolute;
+    top: 50%;
+}

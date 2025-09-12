@@ -1,0 +1,25 @@
+.parent{
+    height: 200px;
+    width: 300px;
+    background-color: rgb(1, 21, 132);
+    position: relative;
+}
+.top, .bottom{
+    height: 50px;
+    width: 300px;
+    background-color: rgb(234, 5, 5);
+    position: absolute;
+}
+.bottom{
+    left: 0px;
+    bottom: 0px;
+}
+.mid{
+    height: 80px;
+    width: 80px;
+    background-color: white;
+    position: absolute;
+    border-radius: 50%;
+    top: 60px;
+    left: 110px;
+}

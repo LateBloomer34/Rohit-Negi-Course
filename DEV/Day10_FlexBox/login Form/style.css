@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(203, 238, 238);
+}
+.parent{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    background-color: bisque;
+    height: 500px;
+    width: 500px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.form , .username, .password, .submit-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.form{
+    height: 40vh;
+    width: 300px;
+    background-color: aqua;  
+    margin: auto;
+}
+
+
+.Subbutton{
+    color: red;
+    background-color: yellow;
+}
+
+.Subbutton:hover{
+    color: black;
+    background-color: aqua;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out  ;
+}

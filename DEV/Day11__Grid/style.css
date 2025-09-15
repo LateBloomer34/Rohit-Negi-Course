@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background-color: bisque;
+}
+.parent{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(234, 219, 246);
+    display: flex;
+    /* padding: 20px; */
+}
+.child1{
+    width: 100px;
+    height: 200px;
+    background-color: blueviolet;
+    /* padding: 20px; */
+    margin: 20px;
+}
+.child2{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    /* flex-direction: column-reverse; */
+    justify-content: start;
+}
+.baby1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(90, 57, 16);
+}
+.baby2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(30, 152, 42);
+}

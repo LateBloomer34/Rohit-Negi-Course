@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    height: 100vh;
+    background-color: rgba(0, 0, 255, 0.694);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 60vh;
+    width: 80vw;
+    background-color: aliceblue;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.box1{
+    grid-row:1/4;
+    grid-column: 1/2;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.box2{
+    grid-row:1/2;
+    grid-column: 2/4;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.box3{
+    grid-row:2/4;
+    grid-column: 4/5;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.box4{
+    grid-row:1/2;
+    grid-column: 4/4;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.box5{
+    grid-row:2/3;
+    grid-column: 3/4;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.box6{
+    grid-row:3/3;
+    grid-column: 2/3;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.box7{
+    grid-row:2/3;
+    grid-column: 2/3;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.box8{
+    grid-row:3/3;
+    grid-column: 3/4;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}

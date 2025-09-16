@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -35,4 +35,38 @@ body{
     background-color: tomato;
     margin: 10px;
 }
+ */
 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+.container{
+background-color: bisque;
+width: 500px;
+height: 500px;
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+gap: 10px;
+
+}
+.child{
+    background-color: rgb(118, 121, 121);
+    
+}
+.child1, .child2, .child3, .child4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: yellow;
+}

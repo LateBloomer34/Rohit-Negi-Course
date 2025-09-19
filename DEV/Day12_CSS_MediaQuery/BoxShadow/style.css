@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 10vh;
+    width: 10vh;
+    background-color: hwb(60 0% 0%);
+    border: 50%;
+    box-shadow: 10px 10px 15px 10px red;
+}
+
+/* box-shadow: 10px 10px 15px 10px red; 
+ first value -   offest-x, 
+ second value offeset-y ,
+ third value -  blur radius ,
+ fourth value - spread radius
+ fifth valur - color of shadow
+*/

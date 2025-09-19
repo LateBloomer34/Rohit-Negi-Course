@@ -1,0 +1,33 @@
+/* mobile file approach, when box become greate thn 500px, color chane to red, when box size greater than 700px color change to orange, and when maxwidth 100 px bg color change to orange*/
+
+.container{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    font-size: small;
+}
+@media screen and (max-width:100px){
+    .container{
+        background-color: orange;
+        width: 600px;
+        height: 600px;
+        font-size: large;
+    }
+}
+@media screen and (min-width:500px){
+    .container{
+        background-color: red;
+        width: 400px;
+        height: 400px;
+        font-size: medium;
+    }
+}
+
+@media screen and (min-width:700px){
+    .container{
+        background-color: orange;
+        width: 600px;
+        height: 600px;
+        font-size: large;
+    }
+}

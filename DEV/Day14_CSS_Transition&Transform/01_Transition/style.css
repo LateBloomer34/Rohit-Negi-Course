@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: black;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border: 2px solid red;
+    transition-property: all;
+    transition-duration: 2s;
+}
+.box:hover{
+   width: 300px;
+    cursor: pointer;
+    background-color: red;
+    /* border: 2px dotted rgb(41, 0, 128); */
+}

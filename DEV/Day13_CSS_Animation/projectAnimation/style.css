@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 500px;
+    width: 100vw;
+    background-color: yellow;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.child{
+    border: 1px solid #041d28;
+    height: 80px;
+    width: 100vw;
+    padding: 10px;
+    background-color: #86c6e3;
+    position: absolute;
+    animation-name: move; 
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: backwards;
+    animation-timing-function: linear;
+    overflow: hidden;
+}
+
+/* @keyframes move{
+    from{
+        left: 100vw;
+        top: 5vw;
+    }
+    to{
+        left: 0px;
+        top: 5vh;
+    }
+} */
+
+@keyframes move{
+    from{
+        margin-left: 100vw;
+    }
+    to{
+        margin-left: -150%;
+    }
+}
+

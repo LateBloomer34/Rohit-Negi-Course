@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 80vh;
+    width: 80vw;
+    background-color: yellow;
+    position: relative;
+}
+
+.child{
+    height: 10vh;
+    width: 10vw;
+    margin: 20px;
+    background-color: aqua;
+    animation-name: test;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    position: absolute;
+    /* animation-fill-mode: forwards; */
+}
+
+/* move left to right */
+
+/*
+@keyframes test{
+
+    from{
+        background-color: beige;
+        top:10px;
+        left: 10vw;
+    }
+    to{
+        background-color: red;
+        top: 10px;
+        left: 60vw;
+    }
+}
+*/
+ /* move in rotation */
+
+ @keyframes test {
+  0% {
+    background-color: white;
+    top: 10px;
+    left: 10px;
+  }
+  25% {
+    background-color: green;
+    top: 10px;
+    left: 550px; /* right side */
+  }
+  50% {
+    background-color: pink;
+    left: 550px;  /* bottom side */
+    top: 550px;
+  }
+  75% {
+    background-color: red;
+    top: 550px;
+    left: 10px; /* back to left */
+  }
+  100% {
+    background-color: white;
+    top: 10px;
+    left: 10px; /* back to start */
+  }
+}

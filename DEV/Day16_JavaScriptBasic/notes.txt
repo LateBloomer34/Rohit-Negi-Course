@@ -1,0 +1,14 @@
+ browser only understand JS syntax 
+
+ interprator - line by line executor.
+
+
+ chrome browser understand JS code using V8 engine, and this v8 engine is written in c++;
+ so how v8 engine understand this c++ code, is there any compiler available.
+
+ ans- there is no c++ compiler present inside the v* engine ,this c++ code written in the form of machine code and v* engine easily understand this code. 
+
+
+ different machine code for different machines, and different OS(eg for 32 bit , for 64 bit).
+
+ node JS adds this v8 engine for entire machine.
